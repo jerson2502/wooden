@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive landing page</title>
+
+        <style>
+            .l-header .nav__logo img{
+                border-radius: 50%;
+                height: 50px;
+                width: 50px;
+                box-shadow: 0 0 4px yellow;
+            }
+            .home .home__img img{
+                border-radius: 50%;
+                box-shadow: 0 0 4px white;
+            }
+        </style>
+    </head>
+    <body>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--========== HEADER ==========-->   
+
+
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo"><img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/125943679_118979166686795_523277708350904407_o.jpg?_nc_cat=107&ccb=3&_nc_sid=09cbfe&_nc_eui2=AeFvxEN_eZGi7IL8cVYBC5HXbuI_970ysb5u4j_3vTKxvup3SYw_X_p3tWRspLhtziRTPtQ5A4ntFb3UTzoAa99L&_nc_ohc=O0fphbhrV24AX-1PG0c&_nc_ht=scontent.fmnl17-2.fna&oh=9eca8f74a7967bb8cfa54774b69bb96e&oe=604AD820"></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#share" class="nav__link">Share</a></li>
+                        <li class="nav__item"><a href="#decoration" class="nav__link">Decorations</a></li>
+                        <li class="nav__item"><a href="#accessory" class="nav__link">Accessory</a></li>
+                        <li class="nav__item"><a href="#send" class="nav__link">Contact Us</a></li>
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img">
+                        <img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/125943679_118979166686795_523277708350904407_o.jpg?_nc_cat=107&ccb=3&_nc_sid=09cbfe&_nc_eui2=AeFvxEN_eZGi7IL8cVYBC5HXbuI_970ysb5u4j_3vTKxvup3SYw_X_p3tWRspLhtziRTPtQ5A4ntFb3UTzoAa99L&_nc_ohc=O0fphbhrV24AX-1PG0c&_nc_ht=scontent.fmnl17-2.fna&oh=9eca8f74a7967bb8cfa54774b69bb96e&oe=604AD820" alt="">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">CHOOSE YOUR DESIGN</h1>
+                        <p class="home__description">We Happily to Serve you Our Best Designs of Wooden Racks furniture</p>
+                        <a href="#" class="button">Get Started</a>
+                    </div>   
+                </div>
+            </section>
+
+            <!--========== SHARE ==========-->
+            <section class="share section bd-container" id="share">
+                <div class="share__container bd-grid">
+                    <div class="share__data">
+                        <h2 class="section-title-center">We Create, We Build Best Design</h2>
+                        <p class="share__description">Share it Now to  Your Plant lover loveones</p>
+                        <a href="#send" class="button">Contact Us </a>
+                    </div>
+
+                    <div class="share__img">
+                        <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/123967034_109077501010295_4287239342653312076_n.jpg?_nc_cat=100&ccb=3&_nc_sid=730e14&_nc_eui2=AeHNanKReHZNFGI7RBpse4q1s_ZqXHGZ19iz9mpccZnX2AFhObR3ANkxXPOo0ggSXHPoNwv84RtaZzX1EokPsgwz&_nc_ohc=FYX9-g6BSTcAX8Dz6PQ&_nc_oc=AQm8vNwC9patlfyThbnnGaColRQQDiWU9SxbRO4fA3Z4oCru5X7P38zpCDRCUpSAc88&_nc_ht=scontent.fmnl17-1.fna&oh=1d1dc459b6dacc8c0e9298838073f27e&oe=604B2492" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--========== DECORATION ==========-->
+            <section class="decoration section bd-container" id="decoration">
+                <h2 class="section-title">Our Wooden Racks Design<br> For Your Home</h2>
+                <div class="decoration__container bd-grid">
+                    <div class="decoration__data">
+                        <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/123767432_109096474341731_6025716847493628916_n.jpg?_nc_cat=101&ccb=3&_nc_sid=730e14&_nc_eui2=AeGDvcBNeHtBPVlGHkt5lck_r-xmcq16ejuv7GZyrXp6O3EVQbnvzVuf8puoTA9cO5SFjDIuGtmA4JMb4eodfJ7D&_nc_ohc=GzR-nTYVpqAAX-O_J3K&_nc_ht=scontent.fmnl17-1.fna&oh=48e52565b8c412175bea9aacdd7a18d2&oe=604CE775" alt="" class="decoration__img">
+                        <h3 class="decoration__title">STAND FOR PLANT</h3>
+                        <a href="#" class="button button-link">Go Shopping</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.0-9/123833495_109078384343540_5938514836732023831_n.jpg?_nc_cat=106&ccb=3&_nc_sid=730e14&_nc_eui2=AeHFlNFJdJT8DoeE-Ta09Z2AoIwDM1a8xV-gjAMzVrzFX-Uz2f5EEaFvVMU2yknjuOu_NZ2vVPiZyJ3-YtFTYwAI&_nc_ohc=TI_A0YiyizgAX_H6Tec&_nc_ht=scontent.fmnl17-3.fna&oh=4ce5e94b2f273b0122b5d0670cd7a776&oe=604C1470" alt="" class="decoration__img">
+                        <h3 class="decoration__title">STAND FOR PLANT</h3>
+                        <a href="#" class="button button-link">Go Shopping</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/124027552_109047521013293_6080161140652032811_n.jpg?_nc_cat=100&ccb=3&_nc_sid=730e14&_nc_eui2=AeFPKREPOamxSeCRC-iAYFYHAWdmksEI5NEBZ2aSwQjk0Qen1sBaHW96Ps3YvAkRrp-v-88RuzfhXyPJHQiwjrsH&_nc_ohc=nCQr8ThIQlQAX84D2UO&_nc_ht=scontent.fmnl17-1.fna&oh=622dcdabe6aae0d19aa988ddf0caf1d3&oe=604CE198" alt="" class="decoration__img">
+                        <h3 class="decoration__title">STAND FOR PLANT</h3>
+                        <a href="#" class="button button-link">Go Shopping</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== ACCESSORIES ==========-->
+            <section class="accessory section bd-container" id="accessory">
+                <h2 class="section-title">OUR BEST <br> ACCESORIES DESIGN</h2>
+
+                <div class="accessory__container bd-grid">
+                    <div class="accessory__content">
+                        <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/124196235_109080671009978_1945654241029100345_n.jpg?_nc_cat=108&ccb=3&_nc_sid=730e14&_nc_eui2=AeFxnX3zdCQ6cp6TFdGc2QkEzDAmuMte5i7MMCa4y17mLqKx6Hi0d4I6NnZkfCeBd-pqNSScXD9sHXKdDMRlaaCi&_nc_ohc=UhLpZlZwQvEAX_5r6TE&_nc_ht=scontent.fmnl17-1.fna&oh=f23b3bd16c691809e43d90b99f0fab67&oe=604B759F" alt="" class="accessory__img">
+                        <h3 class="accessory__title">STAND FOR PLANT</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">P.300.00</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/123652952_109088451009200_6262334361081730291_n.jpg?_nc_cat=101&ccb=3&_nc_sid=8bfeb9&_nc_eui2=AeHt4ElGv7kXY2DGhup2kkMtdCY1ExYO-4R0JjUTFg77hDaRoyDGj8a9JCxHUJQrryCymEM56Zdu1lxcp8vFEMRY&_nc_ohc=PkIJWh8nRygAX84Renu&_nc_ht=scontent.fmnl17-1.fna&oh=0a021c1df4fde1a703cafbce787b3f14&oe=604B6B8F" alt="" class="accessory__img">
+                        <h3 class="accessory__title">STAND FOR PLANT</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">P.300.00</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.0-9/123718122_109093277675384_4734563751375589749_n.jpg?_nc_cat=106&ccb=3&_nc_sid=730e14&_nc_eui2=AeHKr2yWfC2nUmgSR12NbPXFDiaUrs0o_GEOJpSuzSj8YTdzpe-iqSgHWwYYstiZyexuyKQCyKP_sUU-KA-jIBjv&_nc_ohc=A5ZbA8XoZNcAX8SoBaB&_nc_ht=scontent.fmnl17-3.fna&oh=578c46498434b0838affb793768dafc6&oe=6049ABEC" alt="" class="accessory__img">
+                        <h3 class="accessory__title">STAND FOR PLANTl</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">P.300.00</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/124313037_109069471011098_1395321269120916462_n.jpg?_nc_cat=107&ccb=3&_nc_sid=730e14&_nc_eui2=AeGORht1RZ1U-RLLPzlq0FPxNnLuPxduKxA2cu4_F24rEKXMKa9WmEFsuTRZL4JmIWpS6gygeFpf26SKpuVK5ZhL&_nc_ohc=Lu1tC3RXkxwAX8Cr-0A&_nc_ht=scontent.fmnl17-2.fna&oh=7fe71aa3468938b6e7caca292845f558&oe=604C050F" alt="" class="accessory__img">
+                        <h3 class="accessory__title">STAND FOR PLANT</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">P.300.00</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.0-9/123687894_109086951009350_3156343922283711860_n.jpg?_nc_cat=100&ccb=3&_nc_sid=8bfeb9&_nc_eui2=AeFJ3f3JDIlSyOOMvROw0aKAls3jxpzxIGqWzePGnPEgavzYUodFaiNZ7hkaAbmzZ00muPXzBt_D9y23CY4N902j&_nc_ohc=flPH0H7ktW0AX_iXuq4&_nc_ht=scontent.fmnl17-1.fna&oh=7ce7bda80d29a383a0663e78205ae662&oe=604CA71E" alt="" class="accessory__img">
+                        <h3 class="accessory__title">STAND FOR PLANT</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">P.300.00</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                    <div class="accessory__content">
+                        <img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/124196678_109077317676980_3883323417275556399_n.jpg?_nc_cat=109&ccb=3&_nc_sid=730e14&_nc_eui2=AeG0wRXZGaGY5G7tstOV5_MTt8nioky5zpe3yeKiTLnOl6mMal4-uNv5PpqT6Ji2NsYWjzYvS5FBotjgFXrMSApJ&_nc_ohc=aIEn8rU6XsQAX_UrQcJ&_nc_ht=scontent.fmnl17-2.fna&oh=b58baa5b0b4ca0774230f36f24d4e550&oe=604AFA14" alt="" class="accessory__img">
+                        <h3 class="accessory__title">STAND FOR PLANT</h3>
+                        <span class="accessory__category">Accessory</span>
+                        <span class="accessory__preci">P.300.00</span>
+                        <a href="#" class="button accessory__button"><i class='bx bx-heart'></i></a>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--========== SEND GIFT ==========-->
+            <section class="send section " id="send">
+                <div class="send__container bd-container bd-grid">
+                    <div class="send__content">
+                        <h2 class="section-title-center send__title">CONTACT US NOW</h2>
+                        <p class="send__description">Start to Contact Us now. Write Your Message and Contact Us now
+                        <form action="">
+                            <div class="send__direction">
+                                <input type="text" placeholder="Message Us" class="send__input">
+                                <a href="#" class="button">Send</a>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="send__img">
+                        <img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/123766968_109080744343304_1468441637239346369_n.jpg?_nc_cat=111&ccb=3&_nc_sid=730e14&_nc_eui2=AeErj739Fe3toms_U6wyCPcbTyh6oE3BmHZPKHqgTcGYduXl6OkG-zU3mTolqld5ZTwcrTfmCTKImhABPg1F2E4P&_nc_ohc=d7oj36o-KNsAX-dM_Y1&_nc_oc=AQnJN413czXcqmaITugGecEE-OTLm0Wx-4IELCdZIQpuu73UpLbagXL8W_28ieGsIkA&_nc_ht=scontent.fmnl17-2.fna&oh=d3be21087951270e3bd19abe52d33b3e&oe=604D84AB" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        <a href="#" class="footer__logo">WOODEN RACKS</a>
+                    </h3>
+                    <p class="footer__description">CHOOSE YOUR DESIGN  AND MAKE YOUR PLANTS FEEL THE <br>HAPPINESS</p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Services</h3>
+                    <ul>
+                        <li><a href="#decoration" class="footer__link">Pricing </a></li>
+                        <li><a href="#accessory" class="footer__link">Discounts</a></li>
+                        <li><a href="#send" class="footer__link">Shipping mode</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">ABOUT WOODEN RACKS</h3>
+                    <ul>
+                        <li><a href="#home" class="footer__link">History</a></li>
+                        <li><a href="#home" class="footer__link">About us</a></li>
+                        <li><a href="#send" class="footer__link">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title"> Visit Our Socials</h3>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2021 WOODEN RACKS. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
